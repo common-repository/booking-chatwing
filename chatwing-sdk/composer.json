@@ -1,0 +1,22 @@
+{
+    "name": "chatwing/api",
+    "type": "library",
+    "description": "PHP Library used to interact with Chatwing API",
+    "keywords": ["Chatwing", "API"],
+    "homepage": "https://chatwing.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bui Thi Thuy Quynh",
+            "email": "buithithuyquynh1993@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chatwing": "src/BookingChatwing"
+        },
+        "files":[
+            "src/BookingChatwing/start.php"
+        ]
+    }
+}
